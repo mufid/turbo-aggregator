@@ -1,0 +1,30 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'start' ]
+2 info using npm@1.1.65
+3 info using node@v0.8.14
+4 verbose read json /home/mufid/dev/repo/turboaggregator/package.json
+5 warn package.json turboblog-aggregator@0.0.1-2 No README.md file found!
+6 verbose run-script [ 'prestart', 'start', 'poststart' ]
+7 info prestart turboblog-aggregator@0.0.1-2
+8 info start turboblog-aggregator@0.0.1-2
+9 verbose unsafe-perm in lifecycle true
+10 silly exec sh "-c" "node app.js"
+11 silly sh,-c,node app.js,/home/mufid/dev/repo/turboaggregator spawning
+12 info turboblog-aggregator@0.0.1-2 Failed to exec start script
+13 error turboblog-aggregator@0.0.1-2 start: `node app.js`
+13 error `sh "-c" "node app.js"` failed with 1
+14 error Failed at the turboblog-aggregator@0.0.1-2 start script.
+14 error This is most likely a problem with the turboblog-aggregator package,
+14 error not with npm itself.
+14 error Tell the author that this fails on your system:
+14 error     node app.js
+14 error You can get their info via:
+14 error     npm owner ls turboblog-aggregator
+14 error There is likely additional logging output above.
+15 error System Linux 2.6.35-28-generic
+16 error command "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+17 error cwd /home/mufid/dev/repo/turboaggregator
+18 error node -v v0.8.14
+19 error npm -v 1.1.65
+20 error code ELIFECYCLE
+21 verbose exit [ 1, true ]

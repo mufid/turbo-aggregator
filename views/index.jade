@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h1 Turbo Blogs
+  - posts.forEach(function(item){
+    a(href=item.link)
+      h2 
+        span.author= item.author
+        span : 
+        span.title= item.title
+    dl
+      dt pada
+      dd= item.pubdate
+  - if (item.summary) {
+    p!= item.summary
+  - } else {
+  - var str = posts.strip(item.description)
+  - str = str.substr(0, 500)
+    p!= str
+  - }
+  - })

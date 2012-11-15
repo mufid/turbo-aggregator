@@ -1,0 +1,38 @@
+{
+	"note": "DO NOT CHANGE THE INDEX OF THE ITEMS. You may change the contents but not the index",
+	"note2": "The update field is optional. It will be automatically added",
+	"blogs": [ 
+	{
+		"id": "mufid",
+		"name" : "Mufid Afif",
+		"type": "atom",
+		"uri": "http://mufid.github.com/atom.xml"
+	},
+	{
+		"id": "aji",
+		"name": "Alham Fikri Aji",
+		"type": "rss2",
+		"uri": "http://alhamfikri.net/index.php/feed/"
+	},
+	{
+		"id": "ashar",
+		"name": "Ashar Fuadi",
+		"type": "rss2",
+		"uri": "http://feeds.feedburner.com/fusharBlog?format=xml"
+	},
+	{
+		"id": "kemal",
+		"name": "Kemal Maulana Kurniawan",
+		"type": "rss2",
+		"uri": "http://kemskems.wordpress.com/feed/"
+	},
+	{
+		"id": "inas",
+		"uri": "http://havemynoseinbooks.blogspot.com/feeds/posts/default?alt=rss"
+	},
+	{
+		"id": "mira",
+		"uri": "http://joiedemoi.wordpress.com/feed/"
+	}
+	]
+}
